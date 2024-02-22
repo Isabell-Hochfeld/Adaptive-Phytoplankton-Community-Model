@@ -57,3 +57,5 @@ evaluation. The variables for evaluation are saved to a separate file in Evaluat
 can be run to further evaluate and visualize the model output. While Figures_Supporting_Information.m creates figures only, Figures_Manuscript.m also 
 includes statistical analyses (t test). Both scripts load the variable files from Evaluation/Output_Files/; the created figures are saved in 
 Evaluation/Output_Plots/.
+
+Please contact me (isabell.hochfeld@uni-hamburg.de) if you have any issues with downloading or running the model.
