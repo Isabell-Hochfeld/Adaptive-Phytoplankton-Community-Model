@@ -22,27 +22,27 @@ In the publication related to this model, six different model scenarios are eval
 
 Description of the file structure
 
-| - AdaptivePhytoplanktonCommunityModel.zip
-| | - APCM.m                                   Main program
-| | | - Functions/                             Functions required to run the main program
-| | | - Evaluation/                            Scripts and directory structure for evaluation of model output
-| | | | - Output_Files/                        Directory where model output files and variables from these files are stored
-| | | | - Load_Files/                          Scripts to load model output and save variables required for evaluation to Output_Files/
-| | | | | - load_C.m                           Script to load C model output files (present-day climate, no adaptation/resuspension)
-| | | | | - load_CA.m                          Script to load CA model output files (present-day climate, adaptation, no resuspension)
-| | | | | - load_CA_din.m                      Script to load CA model output files with only dinoflagellates
-| | | | | - load_CA_dia.m                      Script to load CA model output files with only diatoms
-| | | | | - load_CAR.m                         Script to load CAR model output files (present-day climate, adaptation, and resuspension)
-| | | | | - load_W.m                           Script to load W model output files (warming climate, no adaptation/resuspension)
-| | | | | - load_WA.m                          Script to load WA model output files (warming climate, adaptation, no resuspension)
-| | | | | - load_WA_din.m                      Script to load WA model output files with only dinoflagellates
-| | | | | - load_WA_dia.m                      Script to load WA model output files with only diatoms
-| | | | | - load_WAR.m                         Script to load WAR model output files (warming climate, adaptation, and resuspension)
-| | | | - Plotting_Functions/                  Directory containing plotting functions
-| | | | | - Figures_Manuscript.m               Script, Figs. 2 and 3 from the manuscript, statistics, loads variables from Output_Files/
-| | | | | - Figures_Supporting_Information.m   Script, Figs. S1-S12 from the Supp. Information, loads variables from Output_Files/
-| | | | | - Functions/                         Functions required to run Figures_Supporting_Information.m
-| | | | - Output_Plots/                        Directory where figures are saved
+AdaptivePhytoplanktonCommunityModel.zip
+- APCM.m																 Main program
+- Functions/                             Functions required to run the main program
+- Evaluation/                            Scripts and directory structure for evaluation of model output
+	- Output_Files/                        Directory where model output files and variables from these files are stored
+	- Load_Files/                          Scripts to load model output and save variables required for evaluation to Output_Files/
+		- load_C.m                           Script to load C model output files (present-day climate, no adaptation/resuspension)
+		- load_CA.m                          Script to load CA model output files (present-day climate, adaptation, no resuspension)
+		- load_CA_din.m                      Script to load CA model output files with only dinoflagellates
+		- load_CA_dia.m                      Script to load CA model output files with only diatoms
+		- load_CAR.m                         Script to load CAR model output files (present-day climate, adaptation, and resuspension)
+		- load_W.m                           Script to load W model output files (warming climate, no adaptation/resuspension)
+		- load_WA.m                          Script to load WA model output files (warming climate, adaptation, no resuspension)
+		- load_WA_din.m                      Script to load WA model output files with only dinoflagellates
+		- load_WA_dia.m                      Script to load WA model output files with only diatoms
+		- load_WAR.m                         Script to load WAR model output files (warming climate, adaptation, and resuspension)
+	- Plotting_Functions/                  Directory containing plotting functions
+		- Figures_Manuscript.m               Script, Figs. 2 and 3 from the manuscript, statistics, loads variables from Output_Files/
+		- Figures_Supporting_Information.m   Script, Figs. S1-S12 from the Supp. Information, loads variables from Output_Files/
+		- Functions/                         Functions required to run Figures_Supporting_Information.m
+	- Output_Plots/                        Directory where figures are saved
 
 
 Workflow:
