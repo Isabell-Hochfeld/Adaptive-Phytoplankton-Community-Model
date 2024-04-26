@@ -14,6 +14,6 @@ Currently, two releases of the model are available.
 
 Version 1.0.0 was used for a publication in _Limnology and Oceanography_ (Hochfeld, I. and Hinners, J.: Evolutionary adaptation to steady or changing environments affects competitive outcomes in marine phytoplankton, _Limnology and Oceanography_, https://doi.org/10.1002/lno.12559, 2024).
 
-Version 1.1.0 represents a slightly extended version of the APCM that allows to calculate different ecosystem functions such as nitrogen fixation and carbon export. This version of the model was used to write the manuscript "Phytoplankton adaptation to steady or changing environments affects marine ecosystem functioning", which is currently submitted to _Biogeosciences_.
+Version 1.1.0 represents a slightly extended version of the APCM that allows to calculate different ecosystem functions such as nitrogen fixation and carbon export. This version of the model was used to write the manuscript "Phytoplankton adaptation to steady or changing environments affects marine ecosystem functioning" by I. Hochfeld and J. Hinners, which is currently submitted to _Biogeosciences_.
 
 Please contact me (isabell.hochfeld@uni-hamburg.de) if you have any issues with downloading or running the model.
